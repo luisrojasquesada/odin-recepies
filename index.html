@@ -2,34 +2,42 @@
 <html lang="spa">
     <head>
         <meta charset="UTF-8">
-        <title>Odin recipes</title>
-        <link rel="stylessheet" href="sytles.css"/>
+        <title>Classic Recipes</title>
+        <link rel="stylesheet" href="styles.css">
+
     </head>
 
     <body>
-       
-        <div id=Container>
-       
+        <div id=Header>
             <header>
-
-            <h1>Recipies</h1>
-       
+            <h1>Classic Recipies</h1>
             </header>
-            
-             <img src="recepies/Images/chef.jpg"alt="chef"> 
+        </div>    
+        <div id="busqueda">
+        <aside>
+            <h2>Barra de busqueda</h2>     
+            <form>
+                 <input type=text>
+                 <input type="submit" value="buscar">
+            </form>
+         </aside>
+        </div>
 
-    
+         <div id="presentacion"> 
         <nav>
-             <ul>
+               <a href="menu/about.html">About</a>   <a href="menu/blog.html">Blog</a>   <a href="menu/contact.html">Contact</a>
+       </nav>
+        </div>
+        <div id="imagen1">
 
-                <li><a href="menu/about.html">About</a></li>
-                <li><a href="menu/blog.html">Blog</a></li>
-                <li><a href="menu/contact.html">contact</a></li>
-               
-             </ul>
-        </nav>
+             <img src="recepies/Images/cocina.jpeg"alt="comida"> 
+        
+        </div>
+
 
             <section id="recipes">
+
+                <h3>Main Recipes</h3>
 
                 <article class="article">
                 <h4><a href="recepies/tuna.html">Tuna Fish Salad</a></h4>
@@ -40,23 +48,15 @@
                 <article class="article"></article>
                 <h4><a href="recepies/recepie3.html"> Penne alla Vodka</a></h4>
                 </article>
+                <p><a href="menu/seemore.html"> See more...</a></p>
+            </section>          
 
-            </section>
-
-            <aside>
-               <h3>Barra de busqueda</h3>     
-               <form>
-                    <input type=text>
-                    <input type="submit" value="buscar">
-               </form>
-            </aside>
-      
         <footer>
 
-            Luis Rojas Quesada
+           <p>Luis Rojas Quesada</p> 
 
         </footer>
-        </biv>
+       
 
     </body>
 

@@ -1,0 +1,28 @@
+
+
+body{
+    background-color: rgba(181, 169, 101, 0.618) 
+}
+
+#Header {
+   background-color: bisque;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0px;
+  }
+#imagen1{
+    text-align: center;
+}
+#presentacion{
+    
+    text-align: center;
+}
+#busqueda{
+    
+    color: white;
+    font-size: 10px;
+    text-align:right;
+    font-weight: bold;
+}
