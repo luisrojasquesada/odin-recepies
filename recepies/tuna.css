@@ -1,0 +1,77 @@
+
+body{
+    background-color: rgba(181, 169, 101, 0.618) 
+}
+
+#Header {
+    background-color: bisque;
+     color: white;
+     font-size: 24px;
+     text-align: center;
+     font-weight: bold;
+     line-height: 0px;
+     margin-top: 5rem;
+     margin-left: auto;
+     margin-bottom: -1rem;
+     margin-right: auto;
+   }
+ 
+   div.scrollmenu {
+     background-color: #333;
+     overflow: auto;
+     white-space: nowrap;
+     text-align: center;
+   }
+   
+   div.scrollmenu a {
+     display: inline-block;
+     color: white;
+     padding: 14px;
+     text-decoration: none;
+   }
+   
+   #busqueda{
+    
+    color: white;
+    font-size: 10px;
+    text-align:right;
+    font-weight: bold;
+}
+
+#title{
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    border: 3px solid black;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+
+#description{
+    border: 3px solid black;
+    margin-top: 1rem;
+    border: 3px solid black;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#Ingredients{
+    border: 3px solid black;
+    margin-right: 50rem;
+    padding-left: 2rem;
+    margin-top: 1rem;
+}
+
+#steps{
+    border: 3px solid black;
+    margin-left: 50rem;
+    padding-left: 2rem;
+    margin-top: -17rem;
+
+}
+
+.highlight{
+    background-color: yellow;
+}

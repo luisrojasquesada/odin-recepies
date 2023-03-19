@@ -5,52 +5,52 @@ body{
 }
 
 #Header {
-   background-color: bisque;
     color: white;
     font-size: 24px;
     text-align: center;
     font-weight: bold;
     line-height: 0px;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-bottom: -1rem;
+    margin-right: auto;
   }
 
-  div.scrollmenu {
+  nav.menu {
     background-color: #333;
+    display: flex;
     overflow: auto;
     white-space: nowrap;
-  }
-  
-  div.scrollmenu a {
+    text-align: center;
+   }
+  nav.menu a {
     display: inline-block;
     color: white;
-    text-align: center;
     padding: 14px;
     text-decoration: none;
   }
   
-  div.scrollmenu a:hover {
-    background-color: #777;
-  }
-
-#imagen1{
-    text-align: center;
-}
 
 .slider{
     display: flex;
     
     width: 300px;
     height: auto;
-}
+    margin-top: 1rem;
+  }
+  .slider1{
+    display:flex;
+    width: 300px;
+    height: auto;
+    margin-top: 1rem;
+  }
+
 
 .avatar.proportioned{
     height: auto;
     width: 300px;
   }
  
-#presentacion{
-    
-    text-align: center;
-}
 #busqueda{
     
     color: white;
